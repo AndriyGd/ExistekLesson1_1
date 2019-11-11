@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existek_Lesson1_1", "Existek_Lesson1_1\Existek_Lesson1_1.csproj", "{75BCE17A-D609-48D4-BCD0-AE94E20A368B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existek_Lesson1_1.SimpleClasses", "Existek_Lesson1_1.SimpleClasses\Existek_Lesson1_1.SimpleClasses.csproj", "{F2947050-4DDB-4F52-BC3F-DE7A4FE829FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{75BCE17A-D609-48D4-BCD0-AE94E20A368B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75BCE17A-D609-48D4-BCD0-AE94E20A368B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75BCE17A-D609-48D4-BCD0-AE94E20A368B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2947050-4DDB-4F52-BC3F-DE7A4FE829FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2947050-4DDB-4F52-BC3F-DE7A4FE829FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2947050-4DDB-4F52-BC3F-DE7A4FE829FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2947050-4DDB-4F52-BC3F-DE7A4FE829FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
