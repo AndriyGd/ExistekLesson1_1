@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existek_Lesson1_1", "Existe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existek_Lesson1_1.SimpleClasses", "Existek_Lesson1_1.SimpleClasses\Existek_Lesson1_1.SimpleClasses.csproj", "{F2947050-4DDB-4F52-BC3F-DE7A4FE829FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existek_Lesson1_1.Inheritance", "Existek_Lesson1_1.Inheritance\Existek_Lesson1_1.Inheritance.csproj", "{44FC1B3A-8ADF-4626-BC32-F5527689B158}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F2947050-4DDB-4F52-BC3F-DE7A4FE829FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2947050-4DDB-4F52-BC3F-DE7A4FE829FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2947050-4DDB-4F52-BC3F-DE7A4FE829FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44FC1B3A-8ADF-4626-BC32-F5527689B158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FC1B3A-8ADF-4626-BC32-F5527689B158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FC1B3A-8ADF-4626-BC32-F5527689B158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FC1B3A-8ADF-4626-BC32-F5527689B158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
