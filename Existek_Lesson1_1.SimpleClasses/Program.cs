@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Existek_Lesson1_1.SimpleClasses
 {
     using System.Collections;
-    using static IdHelper;
+    using ExCommon;
 
     class Program
     {
@@ -50,23 +50,13 @@ namespace Existek_Lesson1_1.SimpleClasses
         }
     }
 
-    public static class IdHelper
-    {
-        private static int _idCounter;
-
-        public static int GetNextId()
-        {
-            return ++_idCounter;
-        }
-    }
-
     class Employee
     {
         public string Name { get; set; }
         private readonly int _age = 0;
         private const string Position = "QA";
 
-        public int Id { get; } = GetNextId();
+        public int Id { get; } = IdHelper.GetNextId();
 
         public Employee() : this("John", 18)
         {

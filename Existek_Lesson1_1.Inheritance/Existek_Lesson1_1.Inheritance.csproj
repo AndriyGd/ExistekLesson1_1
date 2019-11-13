@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Existek_Lesson1_1.ExCommon">
+      <HintPath>..\Existek_Lesson1_1.ExCommon\bin\Debug\Existek_Lesson1_1.ExCommon.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,6 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Human.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="HumanDoesNotExistException.cs" />
+    <Compile Include="HumanRepository.cs" />
+    <Compile Include="Manager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -6,8 +6,16 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existek_Lesson1_1", "Existek_Lesson1_1\Existek_Lesson1_1.csproj", "{75BCE17A-D609-48D4-BCD0-AE94E20A368B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existek_Lesson1_1.SimpleClasses", "Existek_Lesson1_1.SimpleClasses\Existek_Lesson1_1.SimpleClasses.csproj", "{F2947050-4DDB-4F52-BC3F-DE7A4FE829FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3AB46D69-CC6B-423C-825C-2E65F70069A8} = {3AB46D69-CC6B-423C-825C-2E65F70069A8}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existek_Lesson1_1.Inheritance", "Existek_Lesson1_1.Inheritance\Existek_Lesson1_1.Inheritance.csproj", "{44FC1B3A-8ADF-4626-BC32-F5527689B158}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3AB46D69-CC6B-423C-825C-2E65F70069A8} = {3AB46D69-CC6B-423C-825C-2E65F70069A8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Existek_Lesson1_1.ExCommon", "Existek_Lesson1_1.ExCommon\Existek_Lesson1_1.ExCommon.csproj", "{3AB46D69-CC6B-423C-825C-2E65F70069A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,10 @@ Global
 		{44FC1B3A-8ADF-4626-BC32-F5527689B158}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44FC1B3A-8ADF-4626-BC32-F5527689B158}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44FC1B3A-8ADF-4626-BC32-F5527689B158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB46D69-CC6B-423C-825C-2E65F70069A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB46D69-CC6B-423C-825C-2E65F70069A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB46D69-CC6B-423C-825C-2E65F70069A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB46D69-CC6B-423C-825C-2E65F70069A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
